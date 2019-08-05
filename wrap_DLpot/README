@@ -1,0 +1,10 @@
+Si son necesarias modificaciones al codigo en C++ estas se deben hacer en el archivo DL_potential.hpp
+
+Una vez concluidas las actualizaciones del codigo se debe modificar el archivo DL_potential.pyx si es que dichas
+modificaciones fueron realizadas en el argumento de la funcion.
+
+Tanto DL_potential.hpp como DL_potential.pyx deben ser compiladas con el Makefile que hay en el directorio wrap_DLpot.
+
+Se debe copiar el archivo .so en la carpeta donde estan los archivos .py. Junto con el modulo .so se debe copiar el 
+archivo DL_potential.cpp en la misma carpeta que se copia el modulo .so. 
+
